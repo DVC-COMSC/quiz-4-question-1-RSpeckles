@@ -8,7 +8,7 @@ cluster = 0
 
 while len(nums) < 10:
         try:
-            nums.append(int(input("Enter a number: ")))
+            nums.append(int(input()))
         except ValueError:
             print("Must be a numeric value")
 
